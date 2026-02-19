@@ -184,7 +184,7 @@ typeof obj[Symbol.iterator] === 'function'
 
 ###### 获取焦点/失去焦点/值变化事件
 
-###### js获取，元素宽度/距顶部距离/据左距离 20done
+###### js获取，元素宽度/距顶部距离/据左距离
 
 ###### js判断浏览器种类
 
@@ -214,7 +214,7 @@ typeof obj[Symbol.iterator] === 'function'
 
 ###### Date，给定日期输出年龄
 
-###### RequestAnimationFrame，实现平滑滚动到顶部 15done
+###### RequestAnimationFrame，实现平滑滚动到顶部 
 
 ### Promise
 

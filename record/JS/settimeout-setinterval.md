@@ -70,5 +70,6 @@ setTimeout(() => {
 - 必须保存 timerId，否则无法清除；
 - clearTimeout 和 clearInterval 可以混用（底层都是清除定时器），但建议按语义使用；
 - 清除已执行 / 已清除的定时器，不会报错（安全操作）。
+- clearTimeout(timer) 的作用是取消 “未到期的定时器”，但它不会改变 timer 变量本身的值
 
 **定时器不能保证异步操作的执行顺序**
