@@ -56,8 +56,6 @@
 
 ###### tcp/udp区别
 
-###### 浏览器地址栏输入url到页面展示的整个过程
-
 ###### DNS完整查询过程，解析域名过程，迭代查询
 
 ###### DNS劫持
@@ -226,7 +224,7 @@ typeof obj[Symbol.iterator] === 'function'
 const myAll = function (promises) {
   return new Promise((resolve, reject) => {
     if (promises === null || typeof promises[Symbol.iterator] !== 'function') {
-      return reject(new TypeError('argment is not iterable.'))
+      return reject(new TypeError('argument is not iterable.'))
     }
 
     const results = []
@@ -252,7 +250,7 @@ const myAll = function (promises) {
 
 ###### Promise 40题
 
-###### 模拟实现Promise类
+###### 模拟实现Promise类 **<font color=red>[To Do]</font>**
 
 ### 性能优化
 
@@ -274,11 +272,11 @@ const myAll = function (promises) {
 
 ###### TS interface & tuple
 
-###### 响应式原理，自定义Proxy实现
+###### 响应式原理，自定义Proxy实现 **<font color=red>[To Do]</font>**
 
 ###### vue组件间的多种通信方式
 
-###### diff算法
+###### diff算法 **<font color=red>[To Do]</font>**
 
 [15张图，20分钟吃透Diff算法核心原理，我说的！！！前言 大家好，我是林三心，在日常面试中，Diff算法都是绕不过去 - 掘金](https://juejin.cn/post/6994959998283907102#heading-1)
 

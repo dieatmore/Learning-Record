@@ -36,7 +36,7 @@ function debounce(fn, delay, immediate = false) {
   let timer = null;
   
   return function(...args) {
-    if (timer) clearTimeout(timer); // 取消定时器任务
+    clearTimeout(timer); // 取消定时器任务
     if (immediate && !timer) {
       fn.apply(this, args);
     }
